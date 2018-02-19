@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  font-family: Helvectica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+/*Header*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+a {
+  color: seashell;
+}
+
+.page {
+  padding-top: 69px;
+  width; 1200px;
+  margin: auto;
+}
+/*Mission*/
+
+#mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#mission .content {
+  text-align: center;
+  background-color: black;
+  width: 1200px;
+}
+/*featured*/
+
+#featured img {
+  width: 300px;
+  height: 200px;
+  padding: 25px;
+}
+.fcontent {
+  width: 1000px;
+  text-align: center;
+  margin-left: 175px;
+}
+.fleximgs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+#featured span{
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*location*/
+
+#location{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-position: center;
+}
+#location h2{
+  text-align: center;
+  padding-top:25px;
+  margin-bottom: 0px;
+}
+.lcontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.card {
+  background-color: black;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 15px;
+  width; 300px;
+  padding: 20px;
+}
+
+/*contact*/
+ #contact {
+   text-align: center;
+   height: 200px;
+   margin-bottom: 20px;
+ }
